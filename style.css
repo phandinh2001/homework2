@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#boxTime{
+    border: 1px solid rgb(187, 187, 187);
+    width: 60%;
+    height: 25px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.smallBox{
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.rowBox{
+    display: flex;
+}
+#timeRun{
+    width: 100%;
+    height: 23px;
+    border-radius: 10px 0 0 10px ;        
+    /* border-radius: 10px; */
+}
